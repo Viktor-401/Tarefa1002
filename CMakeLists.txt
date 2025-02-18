@@ -50,6 +50,7 @@ pico_enable_stdio_usb(Tarefa0302 1)
 # Add the standard library to the build
 target_link_libraries(Tarefa0302
         pico_stdlib
+        hardware_adc
         hardware_pwm
         hardware_i2c
         )
@@ -61,7 +62,6 @@ target_include_directories(Tarefa0302 PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(Tarefa0302 
-        hardware_pio
         )
 
 pico_add_extra_outputs(Tarefa0302)

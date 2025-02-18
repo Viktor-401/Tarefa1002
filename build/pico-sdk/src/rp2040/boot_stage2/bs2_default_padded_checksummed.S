@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/viktor/embarca tech/Tarefa0302/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/viktor/embarca tech/Tarefa1002/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb
